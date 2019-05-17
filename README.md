@@ -1,14 +1,15 @@
-#Projects 1 & 2: Commingling Analysis 
+# Projects 1 & 2: Commingling Analysis 
 
-## Write a Program to do ML COMMINGLING ANLYSIS on the
-linkdata.sas QUANTITATIVE simulated data 
+## Write a Program to do ML COMMINGLING ANLYSIS on the linkdata.sas QUANTITATIVE simulated data 
 
 ![](files/commingling.png)
 
 Commingling analysis is the part of ML linkage analysis that deals with unrelated founders in pedigrees (in this case, the parents in the nuclear families). You can think of commingling analysis as a kind of cluster analysis,
 in which there are (up to) 3 clusters driven by the 3 genotypes of an untyped (unmeasured) SNP. Assume that the quantitative phenotype is NORMALLY DISTRIBUTED within each of the 3 unknown disease genotype groups (sometimes called the “major gene.”) You may assume the parents are statistically independent (unrelated). Your program must calculate and output the maximum likelihood estimator of 5 parameters: 
 
-- $\mu_{aa}, \mu_{ab}, \mu{bb}$: 3 disease genotypic means of the quantitative phenotype 
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+- $\mu_{aa}, \mu_{ab}, \mu_{bb}$: 3 disease genotypic means of the quantitative phenotype 
 - $\sigma^2$: common variance of the quantitative phenotype within each of the 3 disease genotype groups 
 - $q$: allele frequency of (one of) the disease gene alleles 
 
